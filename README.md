@@ -371,9 +371,13 @@ cat > file21
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+<img width="305" height="161" alt="image" src="https://github.com/user-attachments/assets/3312b3d8-3da1-4d1c-af96-bd1fb188b123" />
+
 sort file21
+
 ## OUTPUT
+<img width="295" height="168" alt="image" src="https://github.com/user-attachments/assets/75df7093-2430-49c7-80a0-6370f7bfeb8a" />
 
 
 cat > file22
@@ -384,9 +388,12 @@ cat > file22
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+<img width="353" height="205" alt="image" src="https://github.com/user-attachments/assets/75691415-9375-49ca-90e9-4bdcae14aace" />
+
 uniq file22
 ## OUTPUT
+<img width="377" height="172" alt="image" src="https://github.com/user-attachments/assets/980baa1c-4c96-4818-8db9-f06458c708c1" />
 
 
 
@@ -394,6 +401,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="590" height="235" alt="image" src="https://github.com/user-attachments/assets/e44f5325-55e7-4dc8-aad6-b136ff79cd8b" />
 
 cat < urllist.txt
 ```
@@ -408,19 +416,25 @@ www. yahoo. com
 www. google. com
 www. mrcet.... com
  ```
+<img width="327" height="122" alt="image" src="https://github.com/user-attachments/assets/5f5c2307-5c9e-4e0a-b90f-207c950407cb" />
+
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="348" height="118" alt="image" src="https://github.com/user-attachments/assets/4dee7f66-2ebb-49c4-8ed2-a2ee0f1570c8" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="455" height="123" alt="image" src="https://github.com/user-attachments/assets/e9f6348b-a9b9-4974-8af5-4c83f22039f3" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="758" height="907" alt="image" src="https://github.com/user-attachments/assets/d245cd0c-5263-4df2-a36a-7ca0ab23be70" />
+<img width="468" height="651" alt="image" src="https://github.com/user-attachments/assets/5962c8ff-3f21-4f7e-ba30-60962d17f6e1" />
 
 
 mkdir backupdir
@@ -431,16 +445,21 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="927" height="902" alt="image" src="https://github.com/user-attachments/assets/98226b2b-12ec-4b9a-ac93-c35ecc2db38f" />
 
+<img width="868" height="725" alt="image" src="https://github.com/user-attachments/assets/eb2cfba2-d64e-40f2-83ea-e934755c97ea" />
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="802" height="872" alt="image" src="https://github.com/user-attachments/assets/0e8f31da-0f5e-4d87-913c-d6d157239057" />
+<img width="611" height="552" alt="image" src="https://github.com/user-attachments/assets/6ea4ef32-ad01-416f-a145-1f1046bf9943" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="1338" height="573" alt="image" src="https://github.com/user-attachments/assets/9f37251d-5bac-4b19-9e09-c002a9c15ae6" />
+
 gunzip backup.tar.gz
 ## OUTPUT
 
