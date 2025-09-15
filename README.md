@@ -481,9 +481,12 @@ i cant stop
 for this non stop movement
 stop
 ```
+<img width="387" height="147" alt="image" src="https://github.com/user-attachments/assets/d901bbd9-3a2f-468b-82fa-6a945c1621a5" />
+
 
 cat herecheck.txt
 ## OUTPUT
+<img width="356" height="122" alt="image" src="https://github.com/user-attachments/assets/ca57944f-b8a8-414b-bd46-7a6c514d60ee" />
 
 
 cat < scriptest.sh 
@@ -501,6 +504,7 @@ echo 'The $$ is ' $$
 ps
 ^d
  ```
+<img width="412" height="352" alt="image" src="https://github.com/user-attachments/assets/73772da5-18b7-46f1-81b9-f3c3f156f868" />
 
 cat scriptest.sh 
 ```bash
@@ -516,29 +520,36 @@ echo 'The $\# is ' $\#
 echo 'The $$ is ' $$
 ps
 ```
- 
+ <img width="372" height="327" alt="image" src="https://github.com/user-attachments/assets/015f5908-3a95-4a6f-978b-2a7baf20cadb" />
+
 chmod 777 scriptest.sh
  
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="762" height="427" alt="image" src="https://github.com/user-attachments/assets/209c0ca5-fae4-468d-927a-8e19b6d5e869" />
 
  
 ls file1
 ## OUTPUT
+<img width="317" height="73" alt="image" src="https://github.com/user-attachments/assets/b3708618-eed7-46df-81b7-2020fe27dc2b" />
 
 echo $?
 ## OUTPUT 
+<img width="290" height="72" alt="image" src="https://github.com/user-attachments/assets/7021ee1e-3b75-4ec0-886e-07ac5f2574d7" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="512" height="146" alt="image" src="https://github.com/user-attachments/assets/98d3a7e0-21fe-4d43-84f5-83d6ac887eac" />
+
 abcd
  
 echo $?
  ## OUTPUT
+<img width="482" height="150" alt="image" src="https://github.com/user-attachments/assets/ff6966ed-64d0-432d-a34c-33b88eed4b7b" />
 
 
  
